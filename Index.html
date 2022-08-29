@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div id="common_part">
+            <div class="row" id="header">
+                <img class="col-2" id="logo-header" src="assets/logo.jpg" style="width: 150px; height: 100px;">
+                <div class="col-6" id="tiltle-header">
+                    Harley-Davidson® of Saigon, Hanoi, Danang
+                </div>
+                <div class="col-4" id="search-bar">
+                    <button type="button" class="btn btn-outline-dark">Đăng nhập</button>
+                    <button type="button" class="btn btn-outline-dark">Đăng xuất</button>
+                    <div>
+                        Xin chào : LÊ XUÂN TRƯỜNG
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="menu">
+                    <a href="" title="freetuts">Trang chủ</a>
+                    <a asp-controller="Products" asp-action="Index" title="freetuts">Sản phẩm</a>
+                    <a href="" title="freetuts">Tin tức</a>
+                    <a href="" title="freetuts">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <br>
+            <button type="button" class="btn btn-success">
+                <i class="fa-solid fa-circle-plus"></i>
+                Success
+            </button>
+            <div class="row heading_line">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-1 stt">
+                    <p>STT</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 name">
+                    <p>TÊN SẢN PHẨM</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 amout">
+                    <p>SỐ LƯỢNG</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 price">
+                    <p>GIÁ THÀNH</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 date">
+                    <p>NGÀY TẠO</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <p>THAO TÁC</p>
+                </div>
+            </div>
+            <div class="row main_line">
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-1 stt">
+                    <p>1</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 name">
+                    <p>Bút chì</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 amout">
+                    <p>100</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 price">
+                    <p>10.000 VNĐ</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 date">
+                    <p>29-08-2022</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        Primary
+                    </button>
+                    <button type="button" class="btn btn-outline-danger btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-trash"></i>
+                        Danger
+                    </button>           
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-1 stt">
+                    <p>1</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 name">
+                    <p>Bút chì</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 amout">
+                    <p>100</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 price">
+                    <p>10.000 VNĐ</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 date">
+                    <p>29-08-2022</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        Primary
+                    </button>
+                    <button type="button" class="btn btn-outline-danger btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-trash"></i>
+                        Danger
+                    </button>           
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-1 stt">
+                    <p>1</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 name">
+                    <p>Bút chì</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 amout">
+                    <p>100</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 price">
+                    <p>10.000 VNĐ</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-2 date">
+                    <p>29-08-2022</p>
+                </div>
+                <div id="main_line" class="col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <button type="button" class="btn btn-outline-primary btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        Primary
+                    </button>
+                    <button type="button" class="btn btn-outline-danger btn-rounded" data-mdb-ripple-color="dark">
+                        <i class="fa-solid fa-trash"></i>
+                        Danger
+                    </button>           
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
